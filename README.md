@@ -1,4 +1,4 @@
-<h1 align='center'>[DataTech] Documentation</a></h1><p align='center'><b>Dedicated To Excellence.</b></h5>
+<h1 align='center'>[DataTech] Documentation</a></h1>
 
 
 ## Local Development
