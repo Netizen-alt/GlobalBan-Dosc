@@ -1,0 +1,8 @@
+{
+  "index": "Home",
+  "setup": "Setup",
+  "about": {
+    "title": "About",
+    "type": "page"
+  }
+}

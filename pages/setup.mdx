@@ -1,0 +1,46 @@
+---
+title: Setup
+description: Learn how to set up your own GlobalBan for FiveM
+---
+import {Steps} from 'nextra-theme-docs';
+import {Callout} from 'nextra/components';
+import LinkButton from "../components/link_button";
+import DefinitionText from "../components/definitionText";
+
+# How To Use GlobalBan
+
+This Guide will show the quick and easy way to set up the Script GlobalBan using <DefinitionText text={"s_globalban"}/>!
+
+## Guide
+
+<Steps>
+    ### Installing
+    - Head To the [Download Backend and Script](https://github.com/DataTechX/Fivem-Globalban)
+    - You need Node Js to install. [Download Nodejs](https://nodejs.org/en/download)
+    - Click the download with the <LinkButton text={"<> Code"} image={"../static/setup/download.png"}/>
+    - Open the `example.env` you just downloaded.
+    - Extract it somewhere you want to store it. We'll pick `C:\Backend`
+    - Open the extracted folder, it should look like <LinkButton text={"this"} image={"../static/setup/backend.png"}/>
+
+    ### Starting
+    
+    - In the extracted folder, find <DefinitionText text={"package.json"}/> and double click it.
+    - Then install Nodejs with the following command: `npm install`.
+    - After that, find the file `example.env`, change the name to `.env` first and then edit it inside..
+    - After that use this command to run the entire system `node app.js`.
+
+    ### Setup
+    <Callout type="warning">
+        You need to run the backend before you can run the script.
+    </Callout>
+
+    - You should now be at the file. <LinkButton text={".env"} image={"../static/setup/setupenv.png"}/>
+    - You will then need to complete your database setup.
+    - When the settings are complete, save and deploy!!
+
+    ### Deploying
+
+    <Callout type="warning">
+    All systems are installed and configured and you can choose to use them privately or publicly.
+    </Callout>
+</Steps>
